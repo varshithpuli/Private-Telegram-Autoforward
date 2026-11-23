@@ -1,0 +1,6 @@
+{
+  "name": "TeleSync",
+  "description": "A clean, dark-mode Android app modeled after BitChord's channel sync utility for connecting a Telegram account and syncing channels with rate-limited pacing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

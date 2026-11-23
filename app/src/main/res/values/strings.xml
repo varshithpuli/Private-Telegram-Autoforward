@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TeleSync</string>
+    <string name="login_header_title">Connect Telegram Account</string>
+    <string name="login_header_subtitle">Credentials stay locally on this device.</string>
+    <string name="label_api_id">App api_id</string>
+    <string name="label_api_hash">App api_hash</string>
+    <string name="label_phone_number">Phone Number (+91...)</string>
+    <string name="label_login_code">Telegram Login Code</string>
+    <string name="label_2fa_password">2FA Password</string>
+    <string name="hint_optional_2fa">Optional if Two-Step Verification is enabled</string>
+    <string name="btn_send_code">Send Code</string>
+    <string name="btn_verify_login">Verify &amp; Login</string>
+    <string name="btn_demo_login">Demo Login</string>
+    <string name="dashboard_title">Unofficial Telegram Sync</string>
+    <string name="dashboard_subtitle">An unofficial client using the Telegram API.</string>
+    <string name="label_source_channel">Source Private Channel</string>
+    <string name="label_destination_channel">Destination Channel</string>
+    <string name="copy_into_main_title">Copy into main channel</string>
+    <string name="copy_into_main_subtitle">Copies old history &amp; watches new posts</string>
+    <string name="sync_info_notice">Telegram watches for accounts that copy many messages. The pace below never exceeds 100 files an hour, and copying pauses whenever Telegram asks.</string>
+    <string name="toggle_hide_forwarded_title">Hide \'Forwarded from\'</string>
+    <string name="toggle_hide_forwarded_subtitle">Copies show as your own posts</string>
+    <string name="toggle_newest_first_title">Newest first</string>
+    <string name="toggle_newest_first_subtitle">Starts from latest post instead of oldest</string>
+    <string name="hourly_speed_limit_format">Hourly speed limit: %1$d files/hour</string>
+    <string name="status_idle">Status: Idle</string>
+    <string name="status_active_format">Copying post #%1$d... Waiting %2$ds</string>
+    <string name="total_copied_format">Total copied: %1$d</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="code_sent_notice">Verification code dispatched via Telegram MTProto session.</string>
+    <string name="error_missing_api_fields">Please provide App api_id, api_hash, and Phone Number first.</string>
+    <string name="error_missing_login_code">Please enter the 5-digit Telegram Login Code or use Demo Login.</string>
+    <string name="content_desc_header_banner">Telegram relay synchronization background</string>
+    <string name="content_desc_toggle_password">Toggle 2FA password visibility</string>
+    <string name="content_desc_disconnect">Disconnect account and return to login</string>
+</resources>
