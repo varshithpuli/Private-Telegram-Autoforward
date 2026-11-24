@@ -26,7 +26,21 @@ def init_client(files_dir, api_id, api_hash):
     session_path = os.path.join(files_dir, "telesync_session")
     async def _init():
         global _client
-        _client = TelegramClient(session_path, int(api_id), api_hash.strip())
+        if _client is not None:
+            try:
+                await _client.disconnect()
+            except Exception:
+                pass
+        _client = TelegramClient(
+            session_path,
+            int(api_id),
+            api_hash.strip(),
+            device_model="Samsung Galaxy S23",
+            system_version="Android 14",
+            app_version="10.14.5",
+            lang_code="en",
+            system_lang_code="en"
+        )
         await _client.connect()
         return await _client.is_user_authorized()
     return _run(_init())
