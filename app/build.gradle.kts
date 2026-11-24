@@ -74,7 +74,7 @@ chaquopy {
         version = "3.11"
         pip {
             install("https://files.pythonhosted.org/packages/44/66/2c17bae31c906613795711fc78045c285048168919ace2220daa372c7d72/pyaes-1.6.1.tar.gz")
-            install("cryptg")
+            install("rsa==4.9")            
             install("telethon==1.46.0")
         }
     }
